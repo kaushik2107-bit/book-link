@@ -13,6 +13,6 @@ export class BookLink {
         return link.attribs.href;
       })
       .get();
-    return url;
+    return links;
   }
 }
