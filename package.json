@@ -1,6 +1,6 @@
 {
   "name": "book-link",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "It will return a pdf link of a book, you search",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -27,5 +27,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.0"
+  }
 }
