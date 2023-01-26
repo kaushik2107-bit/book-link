@@ -1,5 +1,5 @@
-import fetchs from "node-fetch";
-import * as cheerio from "cheerio";
+const cheerio = require("cheerio");
+const fetchs = require("node-fetch");
 export class BookLink {
   static async linkArray(search: string) {
     const str = search.split(" ");
@@ -13,6 +13,6 @@ export class BookLink {
         return link.attribs.href;
       })
       .get();
-    return links;
+    return url;
   }
 }
