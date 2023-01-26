@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/kaushik2107-bit/book-link#readme",
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "prettier": "^2.8.3",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
