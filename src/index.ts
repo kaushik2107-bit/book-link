@@ -1,5 +1,5 @@
 export class BookLink {
-  Link(search: string) {
+  static Link(search: string) {
     console.log(search);
     return search;
   }
