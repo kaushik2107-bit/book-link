@@ -18,7 +18,9 @@ export class BookLink {
     matched.forEach((item) => {
       const url = new URL(`https://www.google.com${item}`);
       const ans = url.searchParams.get("q");
-      if (ans) final.push(ans);
+      if (ans && ans.endsWith("pdf")) {
+        final.push(ans);
+      }
     });
     return final;
   }
