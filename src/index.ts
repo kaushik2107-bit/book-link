@@ -13,6 +13,13 @@ export class BookLink {
         return link.attribs.href;
       })
       .get();
-    return links;
+    const matched = links.filter((item) => item.substring(0, 4) === "/url");
+    const final: string[] = [];
+    matched.forEach((item) => {
+      const url = new URL(`https://www.google.com${item}`);
+      const ans = url.searchParams.get("q");
+      if (ans) final.push(ans);
+    });
+    return final;
   }
 }
