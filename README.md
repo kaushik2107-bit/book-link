@@ -41,9 +41,10 @@ Console of the previous search
 To get **Google API Key** for Programmable Search Engine,
 goto: https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key
 
-![image](images/image.png)
+![Screenshot from 2023-01-31 10-06-11](https://user-images.githubusercontent.com/56549069/215678106-092888cb-0b9b-442f-8e14-f1a64d0931aa.png)
 
 To get **Search Engine Key**,
 goto : https://programmablesearchengine.google.com/controlpanel/create
 
-![images](images/pic.png)
+![Screenshot from 2023-01-31 10-13-01](https://user-images.githubusercontent.com/56549069/215678189-f8140c1a-54f5-45b7-b9f4-c6f7b0353074.png)
+
