@@ -1,6 +1,6 @@
 {
   "name": "book-link",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "It will return a pdf link of a book, you search",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

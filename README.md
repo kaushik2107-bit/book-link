@@ -1,11 +1,21 @@
 # Book Link
 
+## Installation
+
+```
+npm i book-link
+```
+
+## Example
+
 Find pdf links of a book
 
 ```
 import { BookLink } from "book-link";
 
-const result = await BookLink.linkArray("Pride and Prejudice");
+const API_KEY = YOUR_API_KEY;
+const CONTEXT_KEY = YOUR_CONTEXT_KEY;
+const result = await BookLink.linkArray("Pride and Prejudice", API_KEY, CONTEXT_KEY);
 console.log(result);
 ```
 
@@ -26,8 +36,14 @@ Console of the previous search
 ]
 ```
 
-## Installation
+## Keys
 
-```
-npm i book-link
-```
+To get **Google API Key** for Programmable Search Engine,
+goto: https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key
+
+![](./images/image.png)
+
+To get **Search Engine Key**,
+goto : https://programmablesearchengine.google.com/controlpanel/create
+
+![](./images/pic.png)
